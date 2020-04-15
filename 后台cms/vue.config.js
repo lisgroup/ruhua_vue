@@ -13,8 +13,9 @@ module.exports = {
   // https://www.foobar.com/my-app/
   // 那么将这个值改为 '/my-app/'
 
-   //baseUrl: "/addons/qy2020_shop/tp6/public/cms/",// 构建好的文件输出到哪里 
- baseUrl: "/cms/",
+  //baseUrl: "/addons/qy2020_shop/tp6/public/cms/",// 构建好的文件输出到哪里
+  // baseUrl: "/cms/",
+  publicPath: "/",
   outputDir: "cms", 
   
   lintOnSave: true, // 使用带有浏览器内编译器的完整构建版本 // https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only
